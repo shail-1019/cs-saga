@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         { 
             text: "She blushes and smiles back. 'Awww! So sweet! 🥰' She asks: 'What’s next?'", 
-            image: "images/2.jpg",
+            image: "images/2.jpeg",
             options: [
                 { text: "Take her for ice cream 🍦", next: 2, points: 15 },
                 { text: "Sing her a song 🎤", next: 2, points: 20 }
@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         {
             text: "She loves the Birthday Treat! Now what?",
-            image: "images/10.jpg",
+            image: "images/10.jpeg",
             options: [
                 { text: "Give her a heartfelt compliment 🥰", next: 10, points: 10 },
                 { text: "Ask about her day ✨", next: 10, points: 10 }
