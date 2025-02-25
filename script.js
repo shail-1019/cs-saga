@@ -131,7 +131,7 @@ document.addEventListener("DOMContentLoaded", () => {
         storyText.textContent = "";
         hint.textContent = "";
         score.textContent = "";
-        sceneImage.src = "images/11.jpg";
+        sceneImage.src = "images/11.jpg"
         stopConfettiEffect();
         fireworksEffect(); // Keep fireworks effect running
     }
@@ -165,7 +165,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     
     function fireworksEffect() {
-        const duration = 5 * 1000; // Run for 5 seconds
+        const duration = 10 * 1000; // Run for 10 seconds
         const animationEnd = Date.now() + duration;
         
         (function frame() {
