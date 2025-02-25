@@ -131,6 +131,7 @@ document.addEventListener("DOMContentLoaded", () => {
         storyText.textContent = "";
         hint.textContent = "";
         score.textContent = "";
+        sceneImage.src = "images/11.jpg";
         stopConfettiEffect();
         fireworksEffect(); // Keep fireworks effect running
     }
